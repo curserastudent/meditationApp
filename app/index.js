@@ -3,6 +3,21 @@ import { Redirect } from "expo-router";
 import { useEffect, useState } from "react";
 import { ActivityIndicator, View } from "react-native-web";
 
+import MeditationTopDisplay from "../components/MeditationTopDisplay/MeditationTopDisplay";
+import { default as Tabs } from "../components/tabs/Tabs";
+import { default as About } from "../components/about/About";
+import { default as Footer } from "../components/footer/Footer";
+
+export {
+
+  MeditationTopDisplay,
+  Tabs,
+  About,
+  Footer,
+
+};
+
+
 export default function Index() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
