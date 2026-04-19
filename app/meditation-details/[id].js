@@ -12,12 +12,10 @@ import {
   StyleSheet,
 } from "react-native";
 
-import {
-  MeditationTopDisplay,
-  About,
-  Footer,
-  Tabs,
-} from "..";
+import MeditationTopDisplay from "../../components/MeditationTopDisplay/MeditationTopDisplay";
+import About from "../../components/about/About";
+import Footer from "../../components/footer/Footer";
+import Tabs from "../../components/tabs/Tabs";
 import ScreenHeaderBtn from "../../components/ScreenHeaderBtn";
 import { COLORS, icons, SIZES } from "../../constants";
 import useFetch from "../../hook/useFetch";
