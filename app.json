@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MeditationApp",
-    "slug": "MeditationApp",
+    "name": "meditation-app",
+    "slug": "meditation-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,13 +12,22 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.curserastudent.meditationapp",
+      "scheme": "meditationapp",
+      "jsEngine": "hermes",
+      "buildNumber": "1",
+      "version": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.curserastudent.meditationapp",
+      "scheme": "meditationapp",
+      "jsEngine": "hermes",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
